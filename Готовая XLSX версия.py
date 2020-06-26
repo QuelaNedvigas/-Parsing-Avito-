@@ -9,7 +9,7 @@ from fake_useragent import UserAgent
 
 def get_html(url):
     ''' Функция, возвращающая html текст '''
-    # Создаем потдельный user-agent
+    # Создаем поддельный user-agent
     ua = UserAgent()
 
     # Создаем заголовок
